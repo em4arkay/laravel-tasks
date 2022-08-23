@@ -45,8 +45,8 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', 'msdocs-laravel-mysql-435-server.mysql.database.azure.com'),
+            'url' => env('msdocs-laravel-mysql-435-server.mysql.database.azure.com'),
+            'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
             'database'  => env('DB_DATABASE', 'msdocs-docs-laravel-mysql-435-database'),
             'username'  => env('DB_USERNAME', 'plmpyeafon'),
